@@ -1,1 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NERC Digital Gathering Hackathon 2025</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul, ol {
+            margin-bottom: 20px;
+            padding-left: 30px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom 0.3s ease;
+        }
+        a:hover {
+            border-bottom: 1px solid #3498db;
+        }
+        .notebook-section {
+            background-color: #f8f9fa;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 6px;
+            border-left: 4px solid #27ae60;
+        }
+        .challenge-list {
+            background-color: #e8f5e8;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+        .coordinates {
+            background-color: #fff3cd;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            font-style: italic;
+            color: #7f8c8d;
+            text-align: center;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(to right, #3498db, #2ecc71);
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>NERC Digital Gathering Hackathon 2025</h1>
+
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; text-align: center; margin-bottom: 40px;">
+            <h2 style="color: white; margin-top: 0; border: none; padding: 0;">🚀 Ready to Start?</h2>
+            <p style="font-size: 1.2em; margin-bottom: 25px;">Access the complete hackathon materials and start your environmental data journey</p>
+            <a href="https://github.com/NERCDigitalGathering2025/NERCDigitalGathering_Hackathon_2025" 
+               style="display: inline-block; background: white; color: #667eea; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.3s ease;">
+                📁 Go to Hackathon Repository
+            </a>
+        </div>
+
+        <h2>Overview</h2>
+        <p>The <strong>NERC Digital Gathering Hackathon 2025</strong> is an exciting opportunity to explore environmental data and develop skills in data analysis, visualisation, and environmental science applications. This event brings together participants to work with real-world environmental datasets from the NERC CEDA (Centre for Environmental Data Analysis) data archive.</p>
+
+        <p>The hackathon challenges are presented through interactive Jupyter Notebooks that run on the <strong>JASMIN HPC</strong> (High Performance Computing) system operated by NERC. JASMIN provides powerful computational resources and direct access to the extensive CEDA data archive, enabling participants to work with large-scale environmental datasets efficiently.</p>
+
+        <h2>About NERC and CEDA</h2>
+        <p><strong>NERC</strong> (Natural Environment Research Council) is the UK's leading funder of independent research, training and innovation in environmental science. The <strong>CEDA Archive</strong> is NERC's primary data centre for atmospheric and earth observation research, housing petabytes of environmental data including weather observations, climate models, satellite data, and more. See <a href="https://data.ceda.ac.uk">https://data.ceda.ac.uk</a></p>
+
+        <h2>Hackathon Focus</h2>
+        <p>The hackathon encourages exploration of three key environmental datasets:</p>
+        <ul>
+            <li><strong>MIDAS</strong> (Met Office Integrated Data Archive System): Raw weather observations from land and marine surface stations in CSV format</li>
+            <li><strong>ECMWF</strong> (European Centre for Medium-Range Weather Forecasts): Global weather forecasts and climate reanalyses in NetCDF format</li>
+            <li><strong>HadUK-Grid</strong>: Gridded climate variables for the UK derived from interpolated land surface observations in NetCDF format</li>
+        </ul>
+        <p>Participants can choose to focus their analysis on either the UK as a whole or specifically on Bedfordshire, where the hackathon is located.</p>
+
+        <h2>Hackathon Materials</h2>
+        <p>The hackathon includes three comprehensive Jupyter Notebooks, each focusing on different environmental datasets and analysis techniques:</p>
+
+        <div class="notebook-section">
+            <h3>🌍 ECMWF Data Challenges</h3>
+            <p>Work with <strong>global weather and climate reanalysis data</strong> from the European Centre for Medium-Range Weather Forecasts. Learn to process NetCDF data, perform temperature conversions, and create engaging visualisations.</p>
+            <p><strong>Focus Areas:</strong> Global temperature analysis, UK regional patterns, data animation, and time-series analysis.</p>
+        </div>
+
+        <div class="notebook-section">
+            <h3>📊 MIDAS Weather Station Data</h3>
+            <p>Explore <strong>station-based weather observations</strong> from the Met Office Integrated Data Archive System. Develop skills in CSV data processing, statistical analysis, and machine learning applications.</p>
+            <p><strong>Focus Areas:</strong> Weather storytelling, rainfall prediction, flood risk assessment, and renewable energy forecasting.</p>
+        </div>
+
+        <div class="notebook-section">
+            <h3>🗺️ HadUK-Grid Climate Data</h3>
+            <p>Analyse <strong>gridded UK climate data</strong> and river-basin aggregations. Master spatial data visualisation, map plotting, and comparative climate analysis across different time periods.</p>
+            <p><strong>Focus Areas:</strong> UK National Grid mapping, river-basin analysis, and climate period comparisons.</p>
+        </div>
+
+        <div style="background: #e3f2fd; padding: 25px; border-radius: 8px; border-left: 4px solid #2196f3; margin: 30px 0;">
+            <h3 style="color: #1976d2; margin-top: 0;">📚 Access All Materials</h3>
+            <p>All notebooks, detailed challenges, and supporting materials are available in the main hackathon repository:</p>
+            <a href="https://github.com/NERCDigitalGathering2025/NERCDigitalGathering_Hackathon_2025" 
+               style="display: inline-block; background: #1976d2; color: white; padding: 12px 25px; border-radius: 6px; text-decoration: none; font-weight: bold; margin-top: 10px;">
+                View Complete Repository →
+            </a>
+        </div>
+
+        <h2>Getting Started</h2>
+        <p>Ready to dive into environmental data analysis? Here's how to begin your hackathon journey:</p>
+        <ol>
+            <li><strong>Visit the Repository</strong>: Access the complete hackathon materials at the main repository</li>
+            <li><strong>Access JASMIN</strong>: The notebooks are designed to run on the JASMIN HPC system with direct access to CEDA data</li>
+            <li><strong>Choose Your Focus</strong>: Select from the ECMWF, MIDAS, or HadUK-Grid notebook based on your interests</li>
+            <li><strong>Follow the Challenges</strong>: Each notebook contains 5-6 structured challenges with background context, clear tasks, and success criteria</li>
+            <li><strong>Explore the Data</strong>: Use the provided geographical coordinates to focus on UK-wide or Bedfordshire-specific analysis</li>
+        </ol>
+
+        <h2>Useful Resources</h2>
+        <ul>
+            <li><a href="https://data.ceda.ac.uk">CEDA Data Archive</a></li>
+            <li><a href="https://help.ceda.ac.uk">CEDA Help Documentation</a></li>
+            <li><a href="https://zenodo.org/records/7357335">MIDAS User Guide</a></li>
+            <li><a href="https://www.ecmwf.int">ECMWF Website</a></li>
+            <li><a href="https://help.jasmin.ac.uk/docs/interactive-computing/jasmin-notebooks-service/">JASMIN Notebooks Service Help</a></li>
+        </ul>
+
+        <div class="coordinates">
+            <h2>Geographical Coordinates</h2>
+            <ul>
+                <li><strong>UK Bounding Box</strong>: -10°W to 3°E, 49°N to 61°N</li>
+                <li><strong>Bedfordshire Bounding Box</strong>: -0.89°W to 0.23°E, 51.95°N to 52.49°N</li>
+            </ul>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%); color: white; padding: 40px; border-radius: 10px; text-align: center; margin: 40px 0;">
+            <h2 style="color: white; margin-top: 0; border: none; padding: 0;">🎯 Ready to Begin?</h2>
+            <p style="font-size: 1.2em; margin-bottom: 25px;">Join the NERC Digital Gathering Hackathon 2025 and start exploring environmental data today!</p>
+            <a href="https://github.com/NERCDigitalGathering2025/NERCDigitalGathering_Hackathon_2025" 
+               style="display: inline-block; background: white; color: #27ae60; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.3s ease;">
+                🚀 Start Your Hackathon Journey
+            </a>
+        </div>
+
+        <hr>
+
+        <div class="footer">
+            <p><em>This hackathon provides an excellent opportunity to explore real environmental data and develop skills in data analysis, visualisation, and environmental science applications.</em></p>
+        </div>
+    </div>
+</body>
+</html>
 
