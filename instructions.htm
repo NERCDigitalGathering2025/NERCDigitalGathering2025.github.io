@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="./assets/ukri-nerc-square-logo.png" alt="NERC Digital Gathering Hackathon 2025" align="right" style="width: 150px; height: 150px;"><title>JASMIN Instructions - NERC Digital Gathering Hackathon 2025</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul, ol {
+            margin-bottom: 20px;
+            padding-left: 30px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom 0.3s ease;
+        }
+        a:hover {
+            border-bottom: 1px solid #3498db;
+        }
+        .step-section {
+            background-color: #f8f9fa;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 6px;
+            border-left: 4px solid #27ae60;
+        }
+        .important-box {
+            background-color: #fff3cd;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        .account-info {
+            background-color: #e8f5e8;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            font-style: italic;
+            color: #7f8c8d;
+            text-align: center;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(to right, #3498db, #2ecc71);
+            margin: 30px 0;
+        }
+        .back-button {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background: #2980b9;
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <a href="index.htm" class="back-button">← Back to Home Page</a>
+
+        <!-- Header Section -->
+        <header style="text-align: center; margin-bottom: 50px; padding: 40px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 15px; border: 1px solid #dee2e6;">
+            <div style="margin-bottom: 20px;">
+                <span style="display: inline-block; background: #2c3e50; color: white; padding: 8px 20px; border-radius: 20px; font-size: 0.9em; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;"><a href="https://www.ukri.org/councils/nerc/" target="_blank" style="color: white;">NERC</a></span>
+            </div>
+            <h1 style="color: #2c3e50; font-size: 2.8em; font-weight: 700; margin: 0 0 15px 0; line-height: 1.2; text-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                JASMIN Connection<br>
+                <span style="color: #3498db; font-size: 0.7em; font-weight: 400;">Instructions</span>
+            </h1>
+            <p style="font-size: 1.3em; color: #5a6c7d; margin: 0; font-weight: 300; max-width: 600px; margin: 0 auto;">How to connect to the JASMIN notebook server for the hackathon</p>
+        </header>
+
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; text-align: center; margin-bottom: 40px;">
+            <h2 style="color: white; margin-top: 0; border: none; padding: 0;">🔗 Quick Access</h2>
+            <p style="font-size: 1.2em; margin-bottom: 25px;">Direct link to the JASMIN notebook server</p>
+            <a href="http://notebooks.jasmin.ac.uk/" 
+               style="display: inline-block; background: white; color: #667eea; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.3s ease;"
+               target="_blank">
+                🌐 Access JASMIN Notebooks
+            </a>
+        </div>
+
+        <h2>About JASMIN and CEDA</h2>
+        <p>For this hackathon, you will be using the <strong>NERC JASMIN high performance computer</strong> system. JASMIN is operated by the Science and Technology Facilities Council on behalf of the Natural Environment Research Council and provides powerful computational resources for environmental data analysis.</p>
+
+        <p>JASMIN allows direct access to data held in the <strong>NERC CEDA data archive</strong>. CEDA (Centre for Environmental Data Analysis) is NERC's primary data centre for atmospheric and earth observation research, housing petabytes of environmental data including weather observations, climate models, satellite data, and more.</p>
+
+        <div class="important-box">
+            <h3 style="color: #856404; margin-top: 0;">📋 Hackathon Accounts</h3>
+            <p><strong>For the purposes of the hackathon, you will be assigned user accounts for the day.</strong> These accounts will be provided at the beginning of the session and will give you full access to the JASMIN notebook server and CEDA data archive.</p>
+        </div>
+
+        <h2>Step-by-Step Connection Instructions</h2>
+
+        <div class="step-section">
+            <h3>1. Access the JASMIN Notebook Server</h3>
+            <p>Navigate to the JASMIN notebook server using your web browser:</p>
+            <p><strong>URL:</strong> <a href="http://notebooks.jasmin.ac.uk/" target="_blank">http://notebooks.jasmin.ac.uk/</a></p>
+            <p>You will see the JASMIN login page where you can sign in with your assigned hackathon credentials.</p>
+        </div>
+
+        <div class="step-section">
+            <h3>2. Log In with Your Hackathon Account</h3>
+            <p>Use the username and password provided to you at the beginning of the hackathon session. These credentials will give you access to:</p>
+            <ul>
+                <li>The JASMIN notebook server environment</li>
+                <li>Direct access to the CEDA data archive</li>
+                <li>Pre-configured Python environments with all necessary libraries</li>
+                <li>Computational resources for data analysis</li>
+            </ul>
+        </div>
+
+        <div class="step-section">
+            <h3>3. Access and Clone the Hackathon Notebooks</h3>
+            <p>Once logged in, you will need to access and clone the notebooks prepared for the session. There are <strong>four notebooks</strong> to access:</p>
+            <ul>
+                <li><strong>ECMWF Data Challenges</strong> - Global weather and climate reanalysis data</li>
+                <li><strong>MIDAS Weather Station Data</strong> - Station-based weather observations</li>
+                <li><strong>HadUK-Grid Climate Data</strong> - Gridded UK climate data</li>
+                <li><strong>Soils and Land Cover</strong> - Spatial environmental datasets for Bedfordshire</li>
+            </ul>
+            <p>Detailed instructions for accessing and cloning these notebooks will be provided during the hackathon session.</p>
+        </div>
+
+        <div class="step-section">
+            <h3>4. Start Your Analysis</h3>
+            <p>With the notebooks cloned and ready, you can begin exploring the environmental datasets and working through the hackathon challenges. The JASMIN environment provides:</p>
+            <ul>
+                <li>High-performance computing resources</li>
+                <li>Direct access to CEDA data without downloading</li>
+                <li>Pre-installed Python libraries for data analysis</li>
+                <li>Collaborative workspace for team projects</li>
+            </ul>
+        </div>
+
+        <div class="account-info">
+            <h3 style="color: #2d5a2d; margin-top: 0;">💡 Getting Your Own JASMIN Account</h3>
+            <p>While you'll have access through the hackathon accounts, you can also apply for your own JASMIN account if you'd like to continue using these resources after the event:</p>
+            <ul>
+                <li><strong>JASMIN Account:</strong> <a href="https://jasmin.ac.uk" target="_blank">https://jasmin.ac.uk</a></li>
+                <li><strong>CEDA Account:</strong> <a href="https://archive.ceda.ac.uk" target="_blank">https://archive.ceda.ac.uk</a></li>
+            </ul>
+            <p>These accounts are free for UK academic and research users.</p>
+        </div>
+
+        <h2>Troubleshooting</h2>
+        <p>If you encounter any issues connecting to JASMIN or accessing the notebooks:</p>
+        <ul>
+            <li>Ensure you're using the correct URL: <a href="http://notebooks.jasmin.ac.uk/" target="_blank">http://notebooks.jasmin.ac.uk/</a></li>
+            <li>Check that your internet connection is stable</li>
+            <li>Try refreshing the page or clearing your browser cache</li>
+            <li>Contact the hackathon organisers for assistance with account credentials</li>
+        </ul>
+
+        <div style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%); color: white; padding: 40px; border-radius: 10px; text-align: center; margin: 40px 0;">
+            <h2 style="color: white; margin-top: 0; border: none; padding: 0;">🚀 Ready to Connect?</h2>
+            <p style="font-size: 1.2em; margin-bottom: 25px;">Access the JASMIN notebook server and start your environmental data analysis!</p>
+            <a href="http://notebooks.jasmin.ac.uk/" 
+               style="display: inline-block; background: white; color: #27ae60; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.3s ease;"
+               target="_blank">
+                🌐 Go to JASMIN Notebooks
+            </a>
+        </div>
+
+        <hr>
+
+        <div class="footer">
+            <p><em>These instructions will help you connect to the JASMIN high performance computing system for the NERC Digital Gathering Hackathon 2025. JASMIN provides powerful computational resources and direct access to the extensive CEDA data archive.</em></p>
+        </div>
+    </div>
+</body>
+</html>
